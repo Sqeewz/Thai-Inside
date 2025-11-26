@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Thai Culture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">ThaiCulture</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html" class="btn-login">Login</a>
+        </nav>
+    </header>
+
+    <div class="form-container" style="max-width: 500px;">
+        <h2>Create Account</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="Username">Username</label>
+                <input type="text" id="Username" class="form-control" placeholder="Enter your username">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="text" id="Password" class="form-control" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+                <label for="Province">Province</label>
+                <select id="province" class="form-control">
+                    <option value="">Select Province</option>
+                    <option value="bangkok">Bangkok</option>
+                    <option value="chiangmai">Chiang Mai</option>
+                    <option value="phuket">Phuket</option>
+                    <option value="khonkaen">Khon Kaen</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="nationality">Nationality</label>
+                <select id="nationality" class="form-control">
+                    <option value="">Select Nationality</option>
+                    <option value="thai">Thai</option>
+                    <option value="foreign">Foreigner</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-submit">Sign Up</button>
+        </form>
+        <div class="form-footer">
+            Already have an account? <a href="login.html">Login</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-line"></div>
+        <p>made by 67162110146-1</p>
+    </footer>
+
+</body>
+
+</html>
